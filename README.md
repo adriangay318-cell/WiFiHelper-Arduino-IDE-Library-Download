@@ -1,5 +1,6 @@
 # WiFiHelper-Arduino-IDE-Library-Download
 
+
 # WiFiHelper 📶
 A lightweight Arduino library to simplify WiFi monitoring and network scanning.
 WiFiHelper is a wrapper for the standard WiFi library that provides easy-to-use functions for visualizing signal strength, debugging connection errors, and scanning nearby networks.
