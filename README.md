@@ -22,4 +22,24 @@ Ideas and bug reports are welcome! If you find an issue or have a suggestion we 
 # 📜 License
 This project is licensed under the MIT License.
 
+# Example Code
 
+#include <WiFi.h>
+#include <WiFiHelper.h>
+
+void setup() {
+  Serial.begin(115200);
+  WiFi.begin("Your_SSID", "Your_Password");
+  
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+}
+
+void loop() {
+  // Get the full diagnostic report
+  Serial.println(WiFiHelper::getUltimateDataString());
+  
+  delay(10000); // Update every 10 seconds
+}
