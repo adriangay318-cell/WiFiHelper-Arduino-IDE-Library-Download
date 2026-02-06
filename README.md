@@ -22,4 +22,4 @@ Ideas and bug reports are welcome! If you find an issue or have a suggestion we 
 # 📜 License
 This project is licensed under the MIT License.
 
-(use: Serial.println(WiFiHelper::getUltimateDataString()); to print the data)
+(use: Serial.println(WiFiHelper::getUltimateDataString( )); to print the data)
